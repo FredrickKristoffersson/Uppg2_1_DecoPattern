@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        //Product snusEttanLös = new Product("Ettan lös", 69, 1102);
+        Product snusEttanLös = new Product("Ettan lös", 69, 1102);
         Product mjölk = new Product("Mjölk", 28, 47);
         Product bröd = new Product("Bröd", 33, 12);
 
@@ -8,7 +8,7 @@ public class Main {
                 new MilkDiscount(
                         new QuantityDiscount(null)));
 
-        //System.out.println(snusEttanLös.toString());
+        System.out.println(snusEttanLös.toString());
 
         double milkDiscount = discountChain.apply(mjölk);
         String milkDescription = discountChain.getDescription(mjölk);
