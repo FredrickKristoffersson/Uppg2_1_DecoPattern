@@ -17,6 +17,6 @@ public class MilkDiscount extends BaseDiscount {
 
     @Override
     protected String getDiscountDescription() {
-        return "5% rabatt på mjölk";
+        return "5% rabatt på mjölk.";
     }
 }
